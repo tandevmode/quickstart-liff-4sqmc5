@@ -107,13 +107,6 @@ async function shareMsg() {
   ]);
 }
 
-function downloadImg() {
-  liff.openWindow({
-    external: true,
-    url: "https://linerookie.com/_nuxt/img/cover.c330b82.png"
-  });
-}
-
 btnShare.onclick = () => {
   shareMsg();
 };
