@@ -17,7 +17,6 @@ const btnOpenWindow = document.getElementById("btnOpenWindow");
 const email = document.getElementById("email");
 const userId = document.getElementById("userId");
 const pictureUrl = document.getElementById("pictureUrl");
-const download = document.getElementById("download");
 const displayName = document.getElementById("displayName");
 const statusMessage = document.getElementById("statusMessage");
 
@@ -106,6 +105,13 @@ async function shareMsg() {
       previewImageUrl: "https://d.line-scdn.net/stf/line-lp/2016_en_02.jpg"
     }
   ]);
+}
+
+function downloadImg() {
+  liff.openWindow({
+    external: true,
+    url: "https://linerookie.com/_nuxt/img/cover.c330b82.png"
+  });
 }
 
 btnShare.onclick = () => {
