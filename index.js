@@ -62,7 +62,7 @@ main();
 async function getUserProfile() {
   const profile = await liff.getProfile();
   pictureUrl.src = profile.pictureUrl;
-  download.href = profile.pictureUrl
+  //download.href = profile.pictureUrl
   userId.innerHTML = "<b>userId:</b> " + profile.userId;
   statusMessage.innerHTML = "<b>statusMessage:</b> " + profile.statusMessage;
   displayName.innerHTML = "<b>displayName:</b> " + profile.displayName;
