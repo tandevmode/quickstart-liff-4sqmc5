@@ -114,7 +114,7 @@ btnShare.onclick = () => {
 btnOpenWindow.onclick = () => {
   liff.openWindow({
     url: "https://liff.line.me/1653792548-2k6J6e0R",
-    external: true
+    external: false
   });
   liff.closeWindow();
 };
