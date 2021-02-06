@@ -113,9 +113,10 @@ btnShare.onclick = () => {
 
 btnOpenWindow.onclick = () => {
   liff.openWindow({
-    url: window.location.href,
+    url: "https://liff.line.me/1653792548-2k6J6e0R",
     external: true
   });
+  liff.closeWindow();
 };
 
 async function getFriendship() {
